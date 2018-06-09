@@ -217,7 +217,6 @@ void BST<T>::_markVisibleNodesParent(const BST::spNODE &p,
 
 template <class T>
 void BST<T>::getMaxHeight() {
-  /* longest will either be left most or right most branch */
   std::stack<NODE *> s;
   int max_depth = 0, current_depth = 0;
 
